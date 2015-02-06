@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.50" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttondsaright"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:height="200dp"
+				android:width="150dp"                
+                android:text="Button A RIGHT" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textviewds1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:text="Player 1: 0"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/leftright1"
+                android:layout_width="150dp"
+                android:layout_height="36dp"
+                android:text="Left" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttondsbleft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:height="200dp"
+                android:text="Button B LEFT"
+                android:width="150dp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.50" >
+
+        <Button
+            android:id="@+id/buttondsaleft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:height="200dp"
+				android:width="150dp"   
+            android:text="Button A LEFT" />
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textviewds2"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:text="Player 2: 0"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/leftright2"
+                android:layout_width="150dp"
+                android:layout_height="36dp"
+                android:text="Left" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttondsbright"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:height="200dp"
+                android:text="Button B RIGHT"
+                android:width="150dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

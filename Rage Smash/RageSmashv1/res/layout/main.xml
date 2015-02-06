@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Rage Tap! Please select a game mode below. Each round consists of 50 taps."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bsmash"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Smash!" />
+    <Button
+        android:id="@+id/bsmash2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Double Smash!" />
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit (Come back soon!)" />
+
+</LinearLayout>
