@@ -1,2 +1,2 @@
 # Summer-BlackBerry-Apps
-Apps I made during the summer after high school for fun &amp; profit
+A select few apps I made during the summer during the summer for fun &amp; profit.
